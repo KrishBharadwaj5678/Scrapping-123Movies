@@ -1,6 +1,6 @@
 import scrapy
 from pymongo import MongoClient
-client = MongoClient("mongodb+srv://test:test1234@cluster0.h6ocrk9.mongodb.net/")
+client = MongoClient("mongodb+srv://username:password@cluster0.h6ocrk9.mongodb.net/")
 
 db = client["123Movies"]
 movies = db.Movies
